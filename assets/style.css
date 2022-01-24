@@ -1,0 +1,46 @@
+html {  
+  background-color: #d4d4d4e7;
+  font-family: 'PT Serif', sans-serif;
+}
+
+body {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(105, 247, 176, 0.548);
+}
+
+h1, h2, h3, nav ul {
+  font-family: 'Be Vietnam Pro', cursive;
+  color: #2a2a2a;
+}
+
+h1 {
+  flex: 1;
+}
+
+nav {
+  flex: 1;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+main {
+  background-color: rgb(204, 204, 204);
+}
+
+a {
+  text-decoration: none;
+}
+
+div.video {
+  text-align: center;
+}
