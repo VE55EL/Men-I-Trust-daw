@@ -1,5 +1,5 @@
 html {  
-  background-color: #d4d4d4e7;
+  background-image: url(fondo.jpg);
   font-family: 'PT Serif', sans-serif;
 }
 
@@ -59,13 +59,14 @@ div.video {
   text-align: center;
 }
 
-iframe {
+div.video iframe {
   border: solid 10px rgba(105, 247, 176, 0.548);
   outline: solid 5px rgb(197, 197, 197);
 }
 
 p {
   margin: 20px;
+  text-align: justify;
   
 }
 
