@@ -74,6 +74,28 @@ footer {
   background-color: rgba(105, 247, 176, 0.548);
   border: solid 10px rgba(105, 247, 176, 0.548);
   border-style: solid none solid none;
+  
+}
+
+footer div {
+  text-align: center;
+}
+
+footer div.red_socials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+figure.social_sites {
+  float: right;
+  margin: 10px;
+}
+
+figure.social_sites img{
+  width: 40px;
+  height: 40px;
 }
 
 a:link {
