@@ -8,6 +8,8 @@ body {
   margin: 0 auto;
 }
 
+/* CSS Menu */
+
 header {
   display: flex;
   justify-content: space-between;
@@ -26,6 +28,11 @@ h1, h2, h3, nav ul {
 h1 {
   flex: 1;
 }
+
+h2 {
+  text-align: center;
+}
+
 h3 {
   margin-left: 20px;
 }
@@ -41,10 +48,15 @@ nav ul {
   margin-top: 30px;
 }
 
+/* CSS main */
+
 main {
   background-color: rgb(204, 204, 204);
   padding-top: 20px;
+  padding-bottom: 20px;
 }
+
+/* CSS index.html*/
 
 blockquote, blockquote ul {
   margin-bottom: 0px;
@@ -69,6 +81,37 @@ p {
   text-align: justify;
   
 }
+
+/* CSS discography */
+
+figure.album {
+  float: left;
+  margin-top: 0px;
+}
+
+figure.album img {
+  width: 190px;
+}
+
+table {
+  margin: 20px;
+}
+
+td, th{
+  outline: solid 0 grey;
+  background-color: rgb(224, 224, 224);
+}
+
+section.albumlink {
+  display: flex;
+  justify-content: center;
+}
+
+section.albumlink a {
+  margin: 30px;
+}
+
+/* CSS footer */
 
 footer {
   background-color: rgba(105, 247, 176, 0.548);
