@@ -113,6 +113,10 @@ th {
   color: black;
 }
 
+th.namesong {
+  width: 20%;
+}
+
 th.link {
   width: 100%;
 }
