@@ -4,7 +4,6 @@ html {
 }
 
 body {
-  width: 1000px;
   margin: 0 auto;
 }
 
@@ -52,8 +51,10 @@ nav ul {
 
 main {
   background-color: rgb(204, 204, 204);
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 1000px;
+  margin: 0 auto;
 }
 
 /* CSS index.html*/
@@ -133,6 +134,22 @@ section.albumlink {
 
 section.albumlink a {
   margin: 30px;
+}
+
+/* Gallery */
+
+nav.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+nav.gallery img, nav.gallery iframe {
+  max-width: 400px;
+  margin: 40px;
+  max-height: 300px;
+  border: solid 10px rgba(105, 247, 176, 0.548);
+  outline: solid 5px rgb(197, 197, 197);
 }
 
 /* CSS footer */
