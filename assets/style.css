@@ -33,7 +33,7 @@ h2 {
 }
 
 h3 {
-  margin-left: 20px;
+  margin-left: 40px;
 }
 
 nav {
@@ -80,7 +80,31 @@ div.video iframe {
 p {
   margin: 20px;
   text-align: justify;
-  
+}
+
+div.parrafo p {
+  margin: 40px;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+/* Biography */
+
+div.bio_photos {
+  display: flex;
+}
+
+div.bio_photos img {
+  max-width: 430px;
+  margin: 25px;
+  border: solid 10px rgba(105, 247, 176, 0.548);
+  outline: solid 5px rgb(197, 197, 197);
+}
+
+h3.who {
+  margin-top: 35px;
 }
 
 /* CSS discography */
@@ -97,7 +121,6 @@ figure.album img {
 table {
   margin: 20px;
   border: #c2c2c2;
-  border-style: none none solid none;
   
 
 }
@@ -138,13 +161,13 @@ section.albumlink a {
 
 /* Gallery */
 
-nav.gallery {
+div.gallery {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
 
-nav.gallery img, nav.gallery iframe {
+div.gallery img, div.gallery iframe {
   max-width: 400px;
   margin: 40px;
   max-height: 300px;
